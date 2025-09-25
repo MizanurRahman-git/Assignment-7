@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed",
+    "description": "Customer tried to make a payment but it keeps failing despite having sufficient balance.",
+    "customer": "Emily Davis",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is...",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1004,
+    "title": "Slow Website Performance",
+    "description": "Customer reports that the website is taking too long to load on desktop and mobile devices.",
+    "customer": "Sophia Wilson",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1005,
+    "title": "Password Reset Email Not Received",
+    "description": "Customer is not receiving password reset emails even after multiple requests.",
+    "customer": "David Clark",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "App Crashing on Login",
+    "description": "Customer reports that the mobile app crashes immediately when they try to log in.",
+    "customer": "Olivia Martinez",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Subscription Not Renewing",
+    "description": "Customer's subscription did not auto-renew even though they enabled auto-pay.",
+    "customer": "Liam Johnson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "Error 500 on Checkout",
+    "description": "Customer gets a server error (500) when trying to check out with their cart.",
+    "customer": "Ava Thompson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer suggests adding a dark mode feature for better usability at night.",
+    "customer": "Ethan White",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund two weeks ago but has not received it yet.",
+    "customer": "Isabella Taylor",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "2024-01-24"
+  }
+]
