@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import './App.css'
+import { ToastContainer } from 'react-toastify';
 import Footer from './Components/Footer'
 import Management from './Components/Management'
 import Navber from './Components/Navber'
@@ -19,12 +20,14 @@ function App() {
       <Navber />
 
       <div className='bg-[#f5f5f5] py-18'>
-        <Suspense fallback={<h1>Loading...</h1>}>
+        <Suspense fallback={<span className="loading loading-infinity loading-xl"></span>}>
           <Management fetchPromise={fetchPromise} />
         </Suspense>
       </div>
 
       <Footer />
+
+    <ToastContainer />
 
     </div>
   )
